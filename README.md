@@ -216,5 +216,4 @@ Key parameters can be adjusted at the top of each module:
 
 ## 📄 License
 
-This project was built as part of a pre-interview assignment.  
-For educational and evaluation purposes only.
+This project is licensed under the MIT License - see the LICENSE file for details.
