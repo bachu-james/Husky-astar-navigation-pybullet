@@ -1,10 +1,13 @@
-# 🤖 Husky A* Autonomous Navigation in PyBullet
+#  Husky A* Autonomous Navigation in PyBullet
 
 > Interactive autonomous navigation system for a **Clearpath Husky** mobile robot using **PyBullet** physics simulation, **A\*** path planning, and a **closed-loop motion controller** — built without ROS.
 
 ---
 
-## 📽️ Demo Overview
+##  Demo Video
+![alt text](HuskyBot.gif)
+
+
 
 ### Workflow
 
@@ -24,7 +27,7 @@ Launch app → GUI opens → Click Start → Click Goal
 
 ---
 
-## ✨ Features
+##  Features
 
 - 🖱️ Interactive Start / Goal selection via GUI
 - 🐾 Husky robot simulation in PyBullet
@@ -39,15 +42,15 @@ Launch app → GUI opens → Click Start → Click Goal
 
 ---
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 husky_nav/
 │── README.md
 │── requirements.txt
 │── .gitignore
+│──main.py
 └── src/
-    │── main.py
     ├── simulator/
     │   ├── world.py           # PyBullet environment setup
     │   └── robot.py           # Husky URDF loading
@@ -62,7 +65,7 @@ husky_nav/
 
 ---
 
-## 🧱 System Design
+## System Design
 
 The project is split into five independent modules for clean architecture and maintainability.
 
@@ -97,7 +100,7 @@ The project is split into five independent modules for clean architecture and ma
 
 ---
 
-## 🧠 Control Logic
+##  Control Logic
 
 The robot uses a **closed-loop waypoint tracking controller**.
 
