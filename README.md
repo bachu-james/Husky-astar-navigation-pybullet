@@ -204,13 +204,6 @@ Key parameters can be adjusted at the top of each module:
 
 ---
 
-## 📋 Constraints
-
-### ❌ Not Used
-- ROS / ROS2
-- Prebuilt navigation stacks
-- Any copy-paste tutorial implementations
-
 ### ✅ Custom Implementations
 - A\* path planning from scratch
 - Closed-loop motion controller
